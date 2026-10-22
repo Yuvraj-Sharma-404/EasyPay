@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Scroll-Triggered Text Reveal
+   Applied exclusively to the exact target words from the reference photos.
+   ========================================================================== */
+
+.scroll-reveal-word {
+  display: inline-block;
+  opacity: 0.22;
+  transform: translateY(4px);
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.scroll-reveal-word.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal-word {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
