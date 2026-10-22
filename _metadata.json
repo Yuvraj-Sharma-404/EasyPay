@@ -1,0 +1,30 @@
+{
+  "extractedAt": "2026-10-22T15:35:28.856Z",
+  "sourceUrl": "https://wise.com/",
+  "extremeMode": true,
+  "pagesExtracted": 20,
+  "totalFiles": 322,
+  "totalSizeBytes": 22108921,
+  "failedAssets": 3,
+  "retriedAssets": 10,
+  "technologies": [
+    {
+      "name": "Next.js",
+      "category": "Framework",
+      "confidence": "high"
+    },
+    {
+      "name": "Google Tag Manager",
+      "category": "Analytics",
+      "confidence": "high"
+    }
+  ],
+  "assetBreakdown": {
+    "css": 10,
+    "js": 63,
+    "images": 247,
+    "fonts": 2,
+    "video": 0,
+    "other": 0
+  }
+}

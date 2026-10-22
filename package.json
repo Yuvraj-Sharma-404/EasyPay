@@ -1,0 +1,12 @@
+{
+  "name": "extracted-site",
+  "version": "1.0.0",
+  "description": "Extracted from https://wise.com/ on 2026-10-22",
+  "scripts": {
+    "start": "node _serve.js",
+    "start:3001": "node _serve.js 3001"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

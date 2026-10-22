@@ -1,0 +1,6 @@
+Failed Assets Report — generated 2026-10-22T15:35:28.838Z
+Total failed: 3
+
+[Failed after 5 retries] https://dq8dwmysp7hk1.cloudfront.net/
+[Failed after 5 retries] https://daw291njkc3ao.cloudfront.net/
+[Failed after 5 retries] https://gtm.wise.com/
